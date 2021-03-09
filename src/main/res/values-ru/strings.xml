@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="ver">Вер. 1.0</string>
+    <string name="menu_home">Домашняя</string>
+    <string name="menu_view">Показать</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_additional">Дополнительно</string>
+    <string name="entery">Ввод</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="fabopen">Открыть</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_sort">Сортировка</string>
+    <string name="dev">Разработчик</string>
+    <string name="devname">Павел Васильев</string>
+    <string name="privatep">Политика конфиденциальности</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="fabnew">Новое</string>
+</resources>
