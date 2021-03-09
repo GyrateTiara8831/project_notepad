@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lable_background"
+    tools:context=".ui.about.AboutFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lable_background"/>
+
+    <ImageView
+        android:id="@+id/inote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_notepad"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintVertical_bias="1.0"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/iapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inote"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/iver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ver"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iapp"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <View
+        android:id="@+id/iline1"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/iver"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <TextView
+        android:id="@+id/idev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/dev"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iline1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/idevname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/devname"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idev"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/idevname"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/privatep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bbackground"
+        app:layout_constraintTop_toBottomOf="@id/line2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

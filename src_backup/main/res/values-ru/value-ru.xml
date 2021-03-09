@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Notepad</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+
+    <string name="menu_home">Домашняя</string>
+    <string name="menu_view">Содержимое</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_about">О приложении</string>
+    <string name="save">Сохраниеть</string>
+    <string name="delete">Удалить</string>
+    <string name="fnew">Новое</string>
+    <string name="fopen">Открыть</string>
+    <string name="action_search">Найти</string>
+    <string name="action_sort">Сортировать</string>
+    <string name="ver">Вер. 1.0</string>
+    <string name="dev">Разработчик</string>
+    <string name="devname">Павел Васильев</string>
+    <string name="privatep">Политика Конфиденциальности</string>
+
+    <string name="advanced">Дополнительно</string>
+    <string name="title">Заголовок</string>
+    <string name="text">Текст</string>
+    <string name="entery">Ввод</string>
+    <string name="home_button">Выход</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Сообщения</string>
+    <string name="sync_header">Синхронизация</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Ваша сигнатура</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или зарегистрироваться</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="welcome">"Добро Пожаловть!"</string>
+    <string name="invalid_username">Не верный логин</string>
+    <string name="invalid_password">Пароль должен быть >5 символов</string>
+    <string name="login_failed">"Логин не найден"</string>
+    <string name="title_activity_login">Вход</string>
+</resources>
